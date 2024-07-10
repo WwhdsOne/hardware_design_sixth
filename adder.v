@@ -1,4 +1,4 @@
-module adder_4bit (
+module adder (
     input [3:0] a, // 4位输入a
     input [3:0] b, // 4位输入b
     output [4:0] sum // 5位输出和，包括进位
