@@ -47,5 +47,4 @@ module addertb;
         // 完成测试
         $finish;
     end
-      
 endmodule
