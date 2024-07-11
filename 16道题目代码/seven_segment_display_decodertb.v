@@ -9,8 +9,6 @@ module seven_segment_display_decodertb;
     );
 
     initial begin
-        $dumpfile("seven_segment_display_decodertb.vcd");
-        $dumpvars(0, seven_segment_display_decodertb);
 
         binary_input = 4'b0000;
         #10;

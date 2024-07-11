@@ -18,10 +18,6 @@ module full_addertb;
         .cout(cout)
     );
 
-    // 时钟生成
-    reg clk;
-    always #5 clk = ~clk; // 每5个时间单位反转时钟信号
-
     // 测试逻辑
     initial begin
         // 初始化输入

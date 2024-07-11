@@ -40,8 +40,4 @@ module half_addertb;
         $finish;
     end
     
-    // 显示结果
-    always @(sum, carry)
-        $display("a=%b, b=%b, sum=%b, carry=%b", a, b, sum, carry);
-    
 endmodule
