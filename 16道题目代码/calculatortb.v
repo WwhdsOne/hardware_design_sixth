@@ -21,7 +21,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module ALU_tb;
+module calculatortb;
 
     // Inputs
     reg [3:0] A;
@@ -32,7 +32,7 @@ module ALU_tb;
     wire [3:0] result;
 
     // 实例化被测试的模块
-    ALU uut (
+    calculator uut (
         .A(A), 
         .B(B), 
         .opcode(opcode), 
